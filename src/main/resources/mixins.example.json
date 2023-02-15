@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.pvpclient",
+  "refmap": "mixins.example.json",
+  "verbose": true,
+  "mixins": [
+    "mixin.ItemFoodAccessor",
+    "mixin.MixinEntityRenderer",
+    "mixin.MixinGameSettings",
+    "mixin.MixinGuiIngame",
+    "mixin.MixinItemRenderer",
+    "mixin.MixinMinecraft"
+  ]
+}
